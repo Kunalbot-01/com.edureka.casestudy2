@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Kunal\eclipse-workspace\edureka.casestudy2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="launchBrowser(chrome)">launchBrowser(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="launchBrowser(firefox)">launchBrowser(firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step01_getBrowser">step01_getBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step01_getBrowser">step01_getBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step02_loginModalScreen">step02_loginModalScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step02_loginModalScreen">step02_loginModalScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step03_hoverMenu">step03_hoverMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step03_hoverMenu">step03_hoverMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step04_verifyLabel">step04_verifyLabel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step04_verifyLabel">step04_verifyLabel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step05_priceSlider">step05_priceSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step06_dropdownOption">step06_dropdownOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step07_search(redmi go (black, 8 gb))">step07_search(redmi go (black, 8 gb))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step08_selectPrd">step08_selectPrd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step09_verifyPrdAmt">step09_verifyPrdAmt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step10_clickImgThmbnail">step10_clickImgThmbnail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step11_deliveryPincode">step11_deliveryPincode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step12_viewDelDetails">step12_viewDelDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step13_addToCart(redmi go (black, 8 gb))">step13_addToCart(redmi go (black, 8 gb))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step14_closeBrowsers">step14_closeBrowsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.edureka.casestudy.Casestudy" class="method navigator-link" hash-for-method="step14_closeBrowsers">step14_closeBrowsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edureka.casestudy.Casestudy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser(chrome)">
+                  </a> <!-- launchBrowser(chrome) -->
+                  <span class="method-name">launchBrowser</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser(firefox)">
+                  </a> <!-- launchBrowser(firefox) -->
+                  <span class="method-name">launchBrowser</span>
+                  <span class="parameters">(firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step01_getBrowser">
+                  </a> <!-- step01_getBrowser -->
+                  <span class="method-name">step01_getBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step01_getBrowser">
+                  </a> <!-- step01_getBrowser -->
+                  <span class="method-name">step01_getBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step02_loginModalScreen">
+                  </a> <!-- step02_loginModalScreen -->
+                  <span class="method-name">step02_loginModalScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step02_loginModalScreen">
+                  </a> <!-- step02_loginModalScreen -->
+                  <span class="method-name">step02_loginModalScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step03_hoverMenu">
+                  </a> <!-- step03_hoverMenu -->
+                  <span class="method-name">step03_hoverMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step03_hoverMenu">
+                  </a> <!-- step03_hoverMenu -->
+                  <span class="method-name">step03_hoverMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step04_verifyLabel">
+                  </a> <!-- step04_verifyLabel -->
+                  <span class="method-name">step04_verifyLabel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step04_verifyLabel">
+                  </a> <!-- step04_verifyLabel -->
+                  <span class="method-name">step04_verifyLabel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step05_priceSlider">
+                  </a> <!-- step05_priceSlider -->
+                  <span class="method-name">step05_priceSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step06_dropdownOption">
+                  </a> <!-- step06_dropdownOption -->
+                  <span class="method-name">step06_dropdownOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step07_search(redmi go (black, 8 gb))">
+                  </a> <!-- step07_search(redmi go (black, 8 gb)) -->
+                  <span class="method-name">step07_search</span>
+                  <span class="parameters">(redmi go (black, 8 gb))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step08_selectPrd">
+                  </a> <!-- step08_selectPrd -->
+                  <span class="method-name">step08_selectPrd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step09_verifyPrdAmt">
+                  </a> <!-- step09_verifyPrdAmt -->
+                  <span class="method-name">step09_verifyPrdAmt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step10_clickImgThmbnail">
+                  </a> <!-- step10_clickImgThmbnail -->
+                  <span class="method-name">step10_clickImgThmbnail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step11_deliveryPincode">
+                  </a> <!-- step11_deliveryPincode -->
+                  <span class="method-name">step11_deliveryPincode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step12_viewDelDetails">
+                  </a> <!-- step12_viewDelDetails -->
+                  <span class="method-name">step12_viewDelDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step13_addToCart(redmi go (black, 8 gb))">
+                  </a> <!-- step13_addToCart(redmi go (black, 8 gb)) -->
+                  <span class="method-name">step13_addToCart</span>
+                  <span class="parameters">(redmi go (black, 8 gb))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step14_closeBrowsers">
+                  </a> <!-- step14_closeBrowsers -->
+                  <span class="method-name">step14_closeBrowsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step14_closeBrowsers">
+                  </a> <!-- step14_closeBrowsers -->
+                  <span class="method-name">step14_closeBrowsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Kunal\eclipse-workspace\edureka.casestudy2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;searchText&quot; value=&quot;redmi go (black, 8 gb)&quot;/&gt;
+    &lt;parameter name=&quot;browserType&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;sanity&quot;/&gt;
+        &lt;include name=&quot;regression&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.edureka.casestudy.Casestudy&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Functional-firefox&quot;&gt;
+    &lt;parameter name=&quot;browserType&quot; value=&quot;firefox&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;sanity&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.edureka.casestudy.Casestudy&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Functional-firefox --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Functional-firefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchBrowser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step01_getBrowser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step02_loginModalScreen</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step03_hoverMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step04_verifyLabel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step05_priceSlider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step06_dropdownOption</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step07_search</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step08_selectPrd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step09_verifyPrdAmt</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step10_clickImgThmbnail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step11_deliveryPincode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step12_viewDelDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step13_addToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step14_closeBrowsers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchBrowser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step01_getBrowser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step02_loginModalScreen</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step03_hoverMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step04_verifyLabel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step14_closeBrowsers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'step04_verifyLabel')
+data.setCell(0, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(0, 3, 17795);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'step04_verifyLabel')
+data.setCell(1, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(1, 3, 14172);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'launchBrowser')
+data.setCell(2, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(2, 3, 12220);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'launchBrowser')
+data.setCell(3, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(3, 3, 10099);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'step05_priceSlider')
+data.setCell(4, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(4, 3, 8959);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'step01_getBrowser')
+data.setCell(5, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(5, 3, 7237);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'step01_getBrowser')
+data.setCell(6, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(6, 3, 6232);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'step03_hoverMenu')
+data.setCell(7, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(7, 3, 5456);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'step10_clickImgThmbnail')
+data.setCell(8, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(8, 3, 5225);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'step11_deliveryPincode')
+data.setCell(9, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(9, 3, 4912);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'step02_loginModalScreen')
+data.setCell(10, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(10, 3, 4484);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'step09_verifyPrdAmt')
+data.setCell(11, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(11, 3, 4375);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'step08_selectPrd')
+data.setCell(12, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(12, 3, 4134);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'step02_loginModalScreen')
+data.setCell(13, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(13, 3, 3436);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'step14_closeBrowsers')
+data.setCell(14, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(14, 3, 2729);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'step13_addToCart')
+data.setCell(15, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(15, 3, 1607);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'step07_search')
+data.setCell(16, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(16, 3, 1528);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'step14_closeBrowsers')
+data.setCell(17, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(17, 3, 1406);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'step03_hoverMenu')
+data.setCell(18, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(18, 3, 1104);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'step06_dropdownOption')
+data.setCell(19, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(19, 3, 634);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'step12_viewDelDetails')
+data.setCell(20, 2, 'com.edureka.casestudy.Casestudy')
+data.setCell(20, 3, 632);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step05_priceSlider</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 5 - Changed the price slider using mouse events.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step03_hoverMenu</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 03 - Mouse hover to Electronics menu.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step11_deliveryPincode</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 11 - Sent pincode using keyboard event.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step13_addToCart(redmi go (black, 8 gb))</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 13 - Validation passed:  Message on the screen is Redmi Go (Black, 8 GB) and it is same as given search text redmi go (black, 8 gb)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step01_getBrowser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 01 - URL is launched.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step14_closeBrowsers</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 14 - Closing all the browsers.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step04_verifyLabel</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 04 - Label is Latest from MI : Redmi Go</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step07_search(redmi go (black, 8 gb))</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 7 - Searched using the parameters passed from testng.xml.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step08_selectPrd</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 8 - Selected the first product from the result screen.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step09_verifyPrdAmt</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 9-Validation Passed : Product amount is greater than zero.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step10_clickImgThmbnail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 10 - Clicked on the thumbnail having video.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step02_loginModalScreen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 02 - Login screen is cancelled.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step12_viewDelDetails</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 12 - View details modal alert box was opened and closed.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step06_dropdownOption</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 6 - Selected the third option from the max dropdown.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step04_verifyLabel</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 04 - Label is Latest from MI : Redmi Go</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step01_getBrowser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 01 - URL is launched.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step02_loginModalScreen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 02 - Login screen is cancelled.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step03_hoverMenu</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 03 - Mouse hover to Electronics menu.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">step14_closeBrowsers</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step 14 - Closing all the browsers.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">9 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.edureka.casestudy.Casestudy</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">step11_deliveryPincode</span>
+                <br/>
+                <span class="ignored-method-name">step10_clickImgThmbnail</span>
+                <br/>
+                <span class="ignored-method-name">step06_dropdownOption</span>
+                <br/>
+                <span class="ignored-method-name">step07_search</span>
+                <br/>
+                <span class="ignored-method-name">step13_addToCart</span>
+                <br/>
+                <span class="ignored-method-name">step09_verifyPrdAmt</span>
+                <br/>
+                <span class="ignored-method-name">step05_priceSlider</span>
+                <br/>
+                <span class="ignored-method-name">step12_viewDelDetails</span>
+                <br/>
+                <span class="ignored-method-name">step08_selectPrd</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edureka.casestudy.Casestudy</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step01_getBrowser</span>
+                <span class="method-start">12239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step02_loginModalScreen</span>
+                <span class="method-start">18482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step03_hoverMenu</span>
+                <span class="method-start">22972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step04_verifyLabel</span>
+                <span class="method-start">24094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step05_priceSlider</span>
+                <span class="method-start">38270 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step06_dropdownOption</span>
+                <span class="method-start">47235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step07_search(redmi go (black, 8 gb))</span>
+                <span class="method-start">47875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step08_selectPrd</span>
+                <span class="method-start">49407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step09_verifyPrdAmt</span>
+                <span class="method-start">53551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step10_clickImgThmbnail</span>
+                <span class="method-start">57930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step11_deliveryPincode</span>
+                <span class="method-start">63160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step12_viewDelDetails</span>
+                <span class="method-start">68077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step13_addToCart(redmi go (black, 8 gb))</span>
+                <span class="method-start">68713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step14_closeBrowsers</span>
+                <span class="method-start">70324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser(firefox)</span>
+                <span class="method-start">73201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step01_getBrowser</span>
+                <span class="method-start">83303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step02_loginModalScreen</span>
+                <span class="method-start">90543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step03_hoverMenu</span>
+                <span class="method-start">93986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step04_verifyLabel</span>
+                <span class="method-start">99445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step14_closeBrowsers</span>
+                <span class="method-start">117243 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

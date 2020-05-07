@@ -1,0 +1,317 @@
+<html>
+<head>
+<title>TestNG:  Functional-firefox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional-firefox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 08 04:28:55 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>45 seconds (45452 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.launchBrowser()'><b>launchBrowser</b><br>Test class: com.edureka.casestudy.Casestudy<br>Parameters: chrome</td>
+<td></td>
+<td>12</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.launchBrowser()'><b>launchBrowser</b><br>Test class: com.edureka.casestudy.Casestudy<br>Parameters: firefox</td>
+<td></td>
+<td>10</td>
+<td>com.edureka.casestudy.Casestudy@4ec4f3a0</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step01_getBrowser()'><b>step01_getBrowser</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-1730337646" onClick='toggleBox("Output-1730337646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1730337646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1730337646">
+Step 01 - URL is launched.<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step01_getBrowser()'><b>step01_getBrowser</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-504478805" onClick='toggleBox("Output-504478805", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-504478805" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-504478805">
+Step 01 - URL is launched.<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.edureka.casestudy.Casestudy@4ec4f3a0</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step02_loginModalScreen()'><b>step02_loginModalScreen</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-2064883371" onClick='toggleBox("Output-2064883371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2064883371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2064883371">
+Step 02 - Login screen is cancelled.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step02_loginModalScreen()'><b>step02_loginModalScreen</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-2035801202" onClick='toggleBox("Output-2035801202", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2035801202" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2035801202">
+Step 02 - Login screen is cancelled.<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.edureka.casestudy.Casestudy@4ec4f3a0</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step03_hoverMenu()'><b>step03_hoverMenu</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-503595296" onClick='toggleBox("Output-503595296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-503595296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-503595296">
+Step 03 - Mouse hover to Electronics menu.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step03_hoverMenu()'><b>step03_hoverMenu</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-1340057206" onClick='toggleBox("Output-1340057206", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1340057206" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1340057206">
+Step 03 - Mouse hover to Electronics menu.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.edureka.casestudy.Casestudy@4ec4f3a0</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step04_verifyLabel()'><b>step04_verifyLabel</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-22446425" onClick='toggleBox("Output-22446425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22446425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22446425">
+Step 04 - Label is Latest from MI : Redmi Go<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step04_verifyLabel()'><b>step04_verifyLabel</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-1195064186" onClick='toggleBox("Output-1195064186", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1195064186" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1195064186">
+Step 04 - Label is Latest from MI : Redmi Go<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.edureka.casestudy.Casestudy@4ec4f3a0</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step05_priceSlider()'><b>step05_priceSlider</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-1059300256" onClick='toggleBox("Output-1059300256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1059300256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1059300256">
+Step 5 - Changed the price slider using mouse events.<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step06_dropdownOption()'><b>step06_dropdownOption</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-1837601499" onClick='toggleBox("Output-1837601499", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1837601499" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1837601499">
+Step 6 - Selected the third option from the max dropdown.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step07_search()'><b>step07_search</b><br>Test class: com.edureka.casestudy.Casestudy<br>Parameters: redmi go (black, 8 gb)<br/>
+<a href="#Output-1908781622" onClick='toggleBox("Output-1908781622", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1908781622" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1908781622">
+Step 7 - Searched using the parameters passed from testng.xml.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step08_selectPrd()'><b>step08_selectPrd</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-749443480" onClick='toggleBox("Output-749443480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-749443480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-749443480">
+Step 8 - Selected the first product from the result screen.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step09_verifyPrdAmt()'><b>step09_verifyPrdAmt</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-1360541835" onClick='toggleBox("Output-1360541835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1360541835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1360541835">
+Step 9-Validation Passed : Product amount is greater than zero.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step10_clickImgThmbnail()'><b>step10_clickImgThmbnail</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-1245593227" onClick='toggleBox("Output-1245593227", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1245593227" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1245593227">
+Step 10 - Clicked on the thumbnail having video.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step11_deliveryPincode()'><b>step11_deliveryPincode</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-949673757" onClick='toggleBox("Output-949673757", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-949673757" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-949673757">
+Step 11 - Sent pincode using keyboard event.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step12_viewDelDetails()'><b>step12_viewDelDetails</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-862025017" onClick='toggleBox("Output-862025017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-862025017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-862025017">
+Step 12 - View details modal alert box was opened and closed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step13_addToCart()'><b>step13_addToCart</b><br>Test class: com.edureka.casestudy.Casestudy<br>Parameters: redmi go (black, 8 gb)<br/>
+<a href="#Output-739737502" onClick='toggleBox("Output-739737502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-739737502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-739737502">
+Step 13 - Validation passed:  Message on the screen is Redmi Go (Black, 8 GB) and it is same as given search text redmi go (black, 8 gb)<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step14_closeBrowsers()'><b>step14_closeBrowsers</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-1572127577" onClick='toggleBox("Output-1572127577", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1572127577" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1572127577">
+Step 14 - Closing all the browsers.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.edureka.casestudy.Casestudy@6572421</td></tr>
+<tr>
+<td title='com.edureka.casestudy.Casestudy.step14_closeBrowsers()'><b>step14_closeBrowsers</b><br>Test class: com.edureka.casestudy.Casestudy<br/>
+<a href="#Output-24334184" onClick='toggleBox("Output-24334184", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24334184" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24334184">
+Step 14 - Closing all the browsers.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.edureka.casestudy.Casestudy@4ec4f3a0</td></tr>
+</table><p>
+</body>
+</html>

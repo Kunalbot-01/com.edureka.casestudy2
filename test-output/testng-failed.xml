@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.edureka.casestudy.Casestudy">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="step11_deliveryPincode"/>
+          <include name="step06_dropdownOption"/>
+          <include name="step07_search"/>
+          <include name="step10_clickImgThmbnail"/>
+          <include name="step14_closeBrowsers"/>
+          <include name="step09_verifyPrdAmt"/>
+          <include name="step05_priceSlider"/>
+          <include name="step08_selectPrd"/>
+          <include name="step02_loginModalScreen"/>
+          <include name="step03_hoverMenu"/>
+          <include name="step13_addToCart"/>
+          <include name="step12_viewDelDetails"/>
+          <include name="step04_verifyLabel"/>
+          <include name="step01_getBrowser"/>
+        </methods>
+      </class> <!-- com.edureka.casestudy.Casestudy -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

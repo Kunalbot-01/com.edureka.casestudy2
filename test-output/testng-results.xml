@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="30" passed="21" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Step 01 - URL is launched.]]>
+    </line>
+    <line>
+      <![CDATA[Step 02 - Login screen is cancelled.]]>
+    </line>
+    <line>
+      <![CDATA[Step 03 - Mouse hover to Electronics menu.]]>
+    </line>
+    <line>
+      <![CDATA[Step 04 - Label is Latest from MI : Redmi Go]]>
+    </line>
+    <line>
+      <![CDATA[Step 5 - Changed the price slider using mouse events.]]>
+    </line>
+    <line>
+      <![CDATA[Step 6 - Selected the third option from the max dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[Step 7 - Searched using the parameters passed from testng.xml.]]>
+    </line>
+    <line>
+      <![CDATA[Step 8 - Selected the first product from the result screen.]]>
+    </line>
+    <line>
+      <![CDATA[Step 9-Validation Passed : Product amount is greater than zero.]]>
+    </line>
+    <line>
+      <![CDATA[Step 10 - Clicked on the thumbnail having video.]]>
+    </line>
+    <line>
+      <![CDATA[Step 11 - Sent pincode using keyboard event.]]>
+    </line>
+    <line>
+      <![CDATA[Step 12 - View details modal alert box was opened and closed.]]>
+    </line>
+    <line>
+      <![CDATA[Step 13 - Validation passed:  Message on the screen is Redmi Go (Black, 8 GB) and it is same as given search text redmi go (black, 8 gb)]]>
+    </line>
+    <line>
+      <![CDATA[Step 14 - Closing all the browsers.]]>
+    </line>
+    <line>
+      <![CDATA[Step 01 - URL is launched.]]>
+    </line>
+    <line>
+      <![CDATA[Step 02 - Login screen is cancelled.]]>
+    </line>
+    <line>
+      <![CDATA[Step 03 - Mouse hover to Electronics menu.]]>
+    </line>
+    <line>
+      <![CDATA[Step 04 - Label is Latest from MI : Redmi Go]]>
+    </line>
+    <line>
+      <![CDATA[Step 14 - Closing all the browsers.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-05-08T04:27:42 IST" name="Suite" finished-at="2020-05-08T04:29:41 IST" duration-ms="118750">
+    <groups>
+      <group name="regression">
+        <method signature="Casestudy.launchBrowser(java.lang.String)[pri:0, instance:com.edureka.casestudy.Casestudy@6572421]" name="launchBrowser" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step01_getBrowser()[pri:1, instance:com.edureka.casestudy.Casestudy@6572421]" name="step01_getBrowser" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step02_loginModalScreen()[pri:2, instance:com.edureka.casestudy.Casestudy@6572421]" name="step02_loginModalScreen" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step03_hoverMenu()[pri:3, instance:com.edureka.casestudy.Casestudy@6572421]" name="step03_hoverMenu" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step04_verifyLabel()[pri:4, instance:com.edureka.casestudy.Casestudy@6572421]" name="step04_verifyLabel" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step05_priceSlider()[pri:5, instance:com.edureka.casestudy.Casestudy@6572421]" name="step05_priceSlider" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step06_dropdownOption()[pri:6, instance:com.edureka.casestudy.Casestudy@6572421]" name="step06_dropdownOption" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step07_search(java.lang.String)[pri:7, instance:com.edureka.casestudy.Casestudy@6572421]" name="step07_search" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step08_selectPrd()[pri:8, instance:com.edureka.casestudy.Casestudy@6572421]" name="step08_selectPrd" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step09_verifyPrdAmt()[pri:9, instance:com.edureka.casestudy.Casestudy@6572421]" name="step09_verifyPrdAmt" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step10_clickImgThmbnail()[pri:10, instance:com.edureka.casestudy.Casestudy@6572421]" name="step10_clickImgThmbnail" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step11_deliveryPincode()[pri:11, instance:com.edureka.casestudy.Casestudy@6572421]" name="step11_deliveryPincode" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step12_viewDelDetails()[pri:12, instance:com.edureka.casestudy.Casestudy@6572421]" name="step12_viewDelDetails" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step13_addToCart(java.lang.String)[pri:13, instance:com.edureka.casestudy.Casestudy@6572421]" name="step13_addToCart" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step14_closeBrowsers()[pri:14, instance:com.edureka.casestudy.Casestudy@6572421]" name="step14_closeBrowsers" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.launchBrowser(java.lang.String)[pri:0, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="launchBrowser" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step01_getBrowser()[pri:1, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="step01_getBrowser" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step02_loginModalScreen()[pri:2, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="step02_loginModalScreen" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step03_hoverMenu()[pri:3, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="step03_hoverMenu" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step04_verifyLabel()[pri:4, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="step04_verifyLabel" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step14_closeBrowsers()[pri:14, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="step14_closeBrowsers" class="com.edureka.casestudy.Casestudy"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Casestudy.launchBrowser(java.lang.String)[pri:0, instance:com.edureka.casestudy.Casestudy@6572421]" name="launchBrowser" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step01_getBrowser()[pri:1, instance:com.edureka.casestudy.Casestudy@6572421]" name="step01_getBrowser" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step02_loginModalScreen()[pri:2, instance:com.edureka.casestudy.Casestudy@6572421]" name="step02_loginModalScreen" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step03_hoverMenu()[pri:3, instance:com.edureka.casestudy.Casestudy@6572421]" name="step03_hoverMenu" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step04_verifyLabel()[pri:4, instance:com.edureka.casestudy.Casestudy@6572421]" name="step04_verifyLabel" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step14_closeBrowsers()[pri:14, instance:com.edureka.casestudy.Casestudy@6572421]" name="step14_closeBrowsers" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.launchBrowser(java.lang.String)[pri:0, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="launchBrowser" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step01_getBrowser()[pri:1, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="step01_getBrowser" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step02_loginModalScreen()[pri:2, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="step02_loginModalScreen" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step03_hoverMenu()[pri:3, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="step03_hoverMenu" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step04_verifyLabel()[pri:4, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="step04_verifyLabel" class="com.edureka.casestudy.Casestudy"/>
+        <method signature="Casestudy.step14_closeBrowsers()[pri:14, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" name="step14_closeBrowsers" class="com.edureka.casestudy.Casestudy"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2020-05-08T04:27:42 IST" name="Test" finished-at="2020-05-08T04:28:55 IST" duration-ms="73158">
+      <class name="com.edureka.casestudy.Casestudy">
+        <test-method signature="launchBrowser(java.lang.String)[pri:0, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:27:42 IST" name="launchBrowser" finished-at="2020-05-08T04:27:54 IST" duration-ms="12220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="step01_getBrowser()[pri:1, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:27:54 IST" name="step01_getBrowser" finished-at="2020-05-08T04:28:00 IST" duration-ms="6232" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 01 - URL is launched.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step01_getBrowser -->
+        <test-method signature="step02_loginModalScreen()[pri:2, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:00 IST" name="step02_loginModalScreen" finished-at="2020-05-08T04:28:05 IST" duration-ms="4484" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 02 - Login screen is cancelled.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step02_loginModalScreen -->
+        <test-method signature="step03_hoverMenu()[pri:3, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:05 IST" name="step03_hoverMenu" finished-at="2020-05-08T04:28:06 IST" duration-ms="1104" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 03 - Mouse hover to Electronics menu.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step03_hoverMenu -->
+        <test-method signature="step04_verifyLabel()[pri:4, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:06 IST" name="step04_verifyLabel" finished-at="2020-05-08T04:28:20 IST" duration-ms="14172" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 04 - Label is Latest from MI : Redmi Go]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step04_verifyLabel -->
+        <test-method signature="step05_priceSlider()[pri:5, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:20 IST" name="step05_priceSlider" finished-at="2020-05-08T04:28:29 IST" duration-ms="8959" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 5 - Changed the price slider using mouse events.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step05_priceSlider -->
+        <test-method signature="step06_dropdownOption()[pri:6, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:29 IST" name="step06_dropdownOption" finished-at="2020-05-08T04:28:30 IST" duration-ms="634" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 6 - Selected the third option from the max dropdown.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step06_dropdownOption -->
+        <test-method signature="step07_search(java.lang.String)[pri:7, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:30 IST" name="step07_search" finished-at="2020-05-08T04:28:31 IST" duration-ms="1528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redmi go (black, 8 gb)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 7 - Searched using the parameters passed from testng.xml.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step07_search -->
+        <test-method signature="step08_selectPrd()[pri:8, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:31 IST" name="step08_selectPrd" finished-at="2020-05-08T04:28:35 IST" duration-ms="4134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 8 - Selected the first product from the result screen.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step08_selectPrd -->
+        <test-method signature="step09_verifyPrdAmt()[pri:9, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:35 IST" name="step09_verifyPrdAmt" finished-at="2020-05-08T04:28:40 IST" duration-ms="4375" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 9-Validation Passed : Product amount is greater than zero.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step09_verifyPrdAmt -->
+        <test-method signature="step10_clickImgThmbnail()[pri:10, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:40 IST" name="step10_clickImgThmbnail" finished-at="2020-05-08T04:28:45 IST" duration-ms="5225" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 10 - Clicked on the thumbnail having video.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step10_clickImgThmbnail -->
+        <test-method signature="step11_deliveryPincode()[pri:11, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:45 IST" name="step11_deliveryPincode" finished-at="2020-05-08T04:28:50 IST" duration-ms="4912" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 11 - Sent pincode using keyboard event.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step11_deliveryPincode -->
+        <test-method signature="step12_viewDelDetails()[pri:12, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:50 IST" name="step12_viewDelDetails" finished-at="2020-05-08T04:28:51 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 12 - View details modal alert box was opened and closed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step12_viewDelDetails -->
+        <test-method signature="step13_addToCart(java.lang.String)[pri:13, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:51 IST" name="step13_addToCart" finished-at="2020-05-08T04:28:52 IST" duration-ms="1607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redmi go (black, 8 gb)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 13 - Validation passed:  Message on the screen is Redmi Go (Black, 8 GB) and it is same as given search text redmi go (black, 8 gb)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step13_addToCart -->
+        <test-method signature="step14_closeBrowsers()[pri:14, instance:com.edureka.casestudy.Casestudy@6572421]" started-at="2020-05-08T04:28:52 IST" name="step14_closeBrowsers" finished-at="2020-05-08T04:28:55 IST" duration-ms="2729" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 14 - Closing all the browsers.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step14_closeBrowsers -->
+      </class> <!-- com.edureka.casestudy.Casestudy -->
+    </test> <!-- Test -->
+    <test started-at="2020-05-08T04:28:55 IST" name="Functional-firefox" finished-at="2020-05-08T04:29:41 IST" duration-ms="45452">
+      <class name="com.edureka.casestudy.Casestudy">
+        <test-method signature="launchBrowser(java.lang.String)[pri:0, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" started-at="2020-05-08T04:28:55 IST" name="launchBrowser" finished-at="2020-05-08T04:29:05 IST" duration-ms="10099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="step01_getBrowser()[pri:1, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" started-at="2020-05-08T04:29:05 IST" name="step01_getBrowser" finished-at="2020-05-08T04:29:12 IST" duration-ms="7237" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 01 - URL is launched.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step01_getBrowser -->
+        <test-method signature="step02_loginModalScreen()[pri:2, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" started-at="2020-05-08T04:29:12 IST" name="step02_loginModalScreen" finished-at="2020-05-08T04:29:16 IST" duration-ms="3436" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 02 - Login screen is cancelled.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step02_loginModalScreen -->
+        <test-method signature="step03_hoverMenu()[pri:3, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" started-at="2020-05-08T04:29:16 IST" name="step03_hoverMenu" finished-at="2020-05-08T04:29:21 IST" duration-ms="5456" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 03 - Mouse hover to Electronics menu.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step03_hoverMenu -->
+        <test-method signature="step04_verifyLabel()[pri:4, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" started-at="2020-05-08T04:29:21 IST" name="step04_verifyLabel" finished-at="2020-05-08T04:29:39 IST" duration-ms="17795" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 04 - Label is Latest from MI : Redmi Go]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step04_verifyLabel -->
+        <test-method signature="step14_closeBrowsers()[pri:14, instance:com.edureka.casestudy.Casestudy@4ec4f3a0]" started-at="2020-05-08T04:29:39 IST" name="step14_closeBrowsers" finished-at="2020-05-08T04:29:41 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 14 - Closing all the browsers.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step14_closeBrowsers -->
+      </class> <!-- com.edureka.casestudy.Casestudy -->
+    </test> <!-- Functional-firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
